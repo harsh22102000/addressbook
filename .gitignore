@@ -1,0 +1,36 @@
+# Qt build artefacts
+*.o
+*.a
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile
+.qmake.stash
+
+# Build directories
+build/
+tests/build/
+
+# Binaries
+addressbook
+addressbook_tests
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Database (user data – do not commit)
+*.db
+*.db-wal
+*.db-shm
